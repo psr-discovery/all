@@ -1,0 +1,20 @@
+name: "Repo is Read Only"
+
+on:
+  issues:
+    types: opened
+  pull_request_target:
+    types: opened
+
+permissions:
+  issues: write
+  pull-requests: write
+
+jobs:
+  action:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: dessant/repo-lockdown@v3
+        with:
+          pr-comment: >
+            Thanks for your contribution! This repository is a metapackage, and therefor does not accept pull requests. Please see [the README](https://github.com/psr-discovery/all#usage) for details on making contributions to this project!
