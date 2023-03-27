@@ -7,6 +7,7 @@ This suite is largely intended for inclusion in libraries like SDKs that wish to
 -   [Requirements](#requirements)
 -   [Installation](#installation)
 -   [Usage](#usage)
+-   [Contributing](#contributing)
 
 ## Requirements
 
@@ -30,7 +31,13 @@ Usage instructions for each discovery library can be found at the links below:
 -   [PSR-14 Event Dispatchers](https://github.com/psr-discovery/event-dispatcher-implementations)
 -   [PSR-11 Containers](https://github.com/psr-discovery/container-implementations)
 -   [PSR-6 Caches](https://github.com/psr-discovery/cache-implementations)
--   [PSR-3 Logs](https://github.com/psr-discovery/log-implementations).
+-   [PSR-3 Logs](https://github.com/psr-discovery/log-implementations)
+
+## Contributing
+
+Contributions are welcome! Please create issues and pull requests on the repository for the specific discovery library you're interested in.
+
+As a metapackage, this repository is not intended to accept contributions.
 
 ---
 
