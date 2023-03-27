@@ -1,0 +1,65 @@
+{
+    "name": "psr-discovery/all",
+    "description": "Lightweight library that discovers available PSR implementations by searching for a list of well-known classes that implement the relevant interface, and returns an instance of the first one that is found.",
+    "license": "MIT",
+    "type": "metapackage",
+    "keywords": [
+        "psr",
+        "discovery",
+        "psr-3",
+        "psr-6",
+        "psr-11",
+        "psr-14",
+        "psr-17",
+        "psr-18"
+    ],
+    "authors": [
+        {
+            "name": "Evan Sims",
+            "email": "hello@evansims.com",
+            "homepage": "https://evansims.com/"
+        }
+    ],
+    "homepage": "https://github.com/psr-discovery",
+    "require": {
+        "php": "^8.0",
+        "psr-discovery/cache-implementations": "^1.0",
+        "psr-discovery/container-implementations": "^1.0",
+        "psr-discovery/event-dispatcher-implementations": "^1.0",
+        "psr-discovery/http-client-implementations": "^1.0",
+        "psr-discovery/http-factory-implementations": "^1.0",
+        "psr-discovery/log-implementations": "^1.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "PsrDiscovery\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PsrDiscovery\\Tests\\": "tests"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "process-timeout": 0,
+        "sort-packages": true
+    },
+    "extra": {
+        "merge-plugin": {
+            "ignore-duplicates": false,
+            "include": [
+                "composer.local.json"
+            ],
+            "merge-dev": true,
+            "merge-extra": false,
+            "merge-extra-deep": false,
+            "merge-scripts": false,
+            "recurse": true,
+            "replace": true
+        }
+    }
+}
