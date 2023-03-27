@@ -37,7 +37,7 @@ Usage instructions for each discovery library can be found at the links below:
 
 Contributions are welcome! Please create issues and pull requests on the repository for the specific discovery library you're interested in.
 
-As a metapackage, this repository is not intended to accept contributions.
+As a meta-package, this repository is not intended to accept contributions.
 
 ---
 
