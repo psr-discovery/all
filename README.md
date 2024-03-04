@@ -11,7 +11,7 @@ This suite is largely intended for inclusion in libraries like SDKs that wish to
 
 ## Requirements
 
--   PHP 8.0+
+-   PHP 8.1+
 -   Composer 2.0+
 
 Successful discovery requires the presence of a compatible implementation in the host application. This library does not install any implementations for you.

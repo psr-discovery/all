@@ -22,7 +22,7 @@
     ],
     "homepage": "https://github.com/psr-discovery",
     "require": {
-        "php": "^8.0",
+        "php": "^8.1",
         "psr-discovery/cache-implementations": "^1.0",
         "psr-discovery/container-implementations": "^1.0",
         "psr-discovery/event-dispatcher-implementations": "^1.0",
